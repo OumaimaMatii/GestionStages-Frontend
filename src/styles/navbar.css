@@ -1,0 +1,54 @@
+.topnav {
+  height: 56px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.topnav-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e293b;
+  letter-spacing: 0.3px;
+}
+
+.topnav-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.topnav-user {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.topnav-role {
+  font-size: 11px;
+  color: #ffffff;
+  background-color: #3b82f6;
+  padding: 3px 8px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.topnav-logout {
+  font-size: 12px;
+  padding: 5px 12px;
+  background-color: #f1f5f9;
+  color: #374151;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.topnav-logout:hover {
+  background-color: #e5e7eb;
+}
