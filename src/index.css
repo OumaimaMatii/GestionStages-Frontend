@@ -1,8 +1,8 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import './styles/global.css';
-@import './styles/sidebar.css';
+
 @import './styles/navbar.css';
-@import './styles/auth.css';
+
 @import './styles/table.css';
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
